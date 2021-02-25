@@ -19,6 +19,6 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-		<logger level="INFO" doc:name="Logger" doc:id="4a8e1d65-9f34-41e7-b2fb-361db0fdcd2f" message="end of pipeline"/>
+		<logger level="INFO" doc:name="Logger" doc:id="4a8e1d65-9f34-41e7-b2fb-361db0fdcd2f" message="end of pipeline application"/>
 	</flow>
 </mule>
