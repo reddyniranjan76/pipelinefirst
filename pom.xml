@@ -31,7 +31,19 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-				</configuration>
+					<cloudHubDeployment>
+      					<uri>https://anypoint.mulesoft.com</uri>
+      					<muleVersion>4.3.0</muleVersion>
+     					<username>niranjanb</username>
+      					<password>Mulesoft@2021</password>
+      					<applicationName>oracledb-persons-api</applicationName>
+      					<environment>Sandbox</environment>
+      					<region>us-east-1</region>
+      					<workers>1</workers>
+      					<workerType>MICRO</workerType>
+      					<objectStoreV2>true</objectStoreV2>
+      				</cloudHubDeployment>
+      				</configuration>
 			</plugin>
 		</plugins>
 	</build>
