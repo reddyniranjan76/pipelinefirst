@@ -36,7 +36,7 @@
       					<muleVersion>4.3.0</muleVersion>
      					<username>niranjanb</username>
       					<password>Mulesoft@2021</password>
-      					<applicationName>oracledb-persons-api</applicationName>
+      					<applicationName>pipelinefirst</applicationName>
       					<environment>Sandbox</environment>
       					<region>us-east-1</region>
       					<workers>1</workers>
