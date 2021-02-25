@@ -10,7 +10,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 	</http:listener-config>
 	<flow name="pipelinefirstFlow" doc:id="80231879-7705-48db-9713-44cc83da94d4" >
 		<http:listener doc:name="Listener" doc:id="3f579027-fa51-41fb-8ff2-bb1a6d69f265" config-ref="HTTP_Listener_config" path="/pipeline"/>
-		<logger level="INFO" doc:name="Logger" doc:id="05c979b7-3296-41a7-9737-581b45beac3c" message="start pipeline "/>
+		<logger level="INFO" doc:name="Logger" doc:id="05c979b7-3296-41a7-9737-581b45beac3c" message="start pipeline job"/>
 		<ee:transform doc:name="Transform Message" doc:id="dd9554f6-157b-4ceb-9c7a-1d61e27e8bfb" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
